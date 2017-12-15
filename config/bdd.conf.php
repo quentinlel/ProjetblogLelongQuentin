@@ -3,7 +3,7 @@
 try
 {
 /* @var $bdd PDO */
-$bdd = new PDO('mysql:host=localhost;dbname=blogtp;charset=utf8', 'root', 'root');
+$bdd = new PDO('mysql:host=localhost;dbname=id3906098_blog;charset=utf8', 'id3906098_quentin', 'aqfl59254');
 $bdd->exec("set names utf8");
 
 // Afficher les exception PDO 
